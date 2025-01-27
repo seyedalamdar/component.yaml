@@ -1,0 +1,11 @@
+{
+  "name": "choreo-example-component",
+  "version": "1.0.0",
+  "description": "A simple component for Choreo",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "echo 'Build step completed.'"
+  },
+  "dependencies": {}
+}
