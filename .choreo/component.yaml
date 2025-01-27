@@ -12,3 +12,10 @@ run:
   command: node src/index.js
 dependencies:
   - node: ">=14.0.0"
+  schemaVersion: 1.0
+endpoints:
+- name: my-service-endpoint
+  service:
+    port: 8080  # Replace with the actual port used by your service
+  type: REST
+
