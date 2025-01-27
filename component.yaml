@@ -1,0 +1,14 @@
+name: choreo-example-component
+version: 1.0.0
+type: function
+source:
+  type: github
+  url: https://github.com/username/choreo-example-repo  # Replace with your GitHub repository URL
+  branch: main
+  directory: /
+build:
+  command: npm install
+run:
+  command: node src/index.js
+dependencies:
+  - node: ">=14.0.0"
