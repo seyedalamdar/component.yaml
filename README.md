@@ -1,0 +1,2 @@
+# component.yaml
+test choreo 
